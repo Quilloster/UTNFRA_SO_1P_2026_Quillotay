@@ -1,0 +1,19 @@
+sudo fdisk /dev/sdb << FDISK
+n
+p
+1
++1G
+n
+p
+2
++1G
+n
+e
+3
+n
++2G
+n
++2G
+n
+w
+FDISK
